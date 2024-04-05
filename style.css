@@ -1,12 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body {
+    font-family: 'Epilogue', sans-serif;
     background: #ece9fd;
-
-    padding: 60px 23px 66px;
+    padding: 6.0rem 2.3rem 6.6rem;
+    font-size: 1.6rem;
+    
+}
+main {
+    max-width: 33.0rem;
+    margin: 0 auto;
 }
 
 h1{
-    font-family: 'Epilogue:ital';
-    font-family: "Epilogue"
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #090039;
+    margin-bottom: 1.5rem;
+}
+main p:first-child{
+    /* esse comando, localiza o primeiro <p> e o modifica */
+    /* se quisermos podemso apenas adicionar uma class no primeiro <p>, que ira decorrer o memso resultado. */
+    color: #7158ef;
+    letter-spacing:3px;
+    /* /\ esse comando resulta em um espaçamento entre as letras */
+    text-transform: uppercase;
+    line-height: 3.2rem;
+    margin-bottom: 1.7rem;
+}
+
+.text-principal{
+   color: rgba(10, 0, 57, 0.64);
+   line-height: 3.2rem;
+    margin-bottom:3.2rem;
+}
+a{
+    font-weight: 400;
+
+    color: #090039;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#3119b9;
+    font-weight: 600;
+  
+}
+ul{
+    margin-top: 7.2rem;
+}
+ul li {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+    max-width: 25.7rem;
+    display: flex;
+    gap: 3.8rem;
+}
+ul li span{
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
 }
